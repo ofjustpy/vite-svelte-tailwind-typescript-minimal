@@ -1,4 +1,9 @@
 <script>
+  import HtmlComponent from './HtmlComponent.svelte';
+   let comp_ref;
+
 </script>
-<h1>HELLO</h1>
+
+<HtmlComponent bind:this={comp_ref} {comp_ref}></HtmlComponent>
+
 
