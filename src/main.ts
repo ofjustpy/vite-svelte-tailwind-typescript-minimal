@@ -1,4 +1,6 @@
-import './app.postcss';
-import App from './App.svelte';
-import HtmlComponent from './HtmlComponent.svelte';
-export  {App, HtmlComponent};
+import { mount } from 'svelte'
+import './app.css'
+import App from './App.svelte'
+
+
+export default {App}
